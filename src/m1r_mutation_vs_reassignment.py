@@ -4,8 +4,8 @@ This module demonstrates the distinction betweeen:
   -- RE-ASSIGNING the name BLAH to refer to a different object.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Josh Melvin.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -17,16 +17,25 @@ import rosegraphics as rg
 
 def main():
     """ Runs several examples. """
-#     example1()
-#     example2()
+    example1()
+    example2()
 
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #  Step a:  READ the code in  example1.
 #
 #  Step b:  PREDICT what  example1  will print when it runs.
 #
+#       Demonstrating mutation vs re-assignment:
+#
+#       Mutation:
+#       Before: Point(100, 200)
+#       After:  Point(77, 200)
+#
+#       Re-assignment:
+#       Before: Point(100, 200)
+#       After:  Point(77, 200)
 #  Step c:  Un-comment the call in  main  to  example1.
 #           RUN this module.
 #
@@ -61,7 +70,7 @@ def example1():
 
 
 # ----------------------------------------------------------------------
-# TODO: 3.
+# DONE: 3.
 #  Step a:  READ the code in  example2.
 #           Pay close attention to the difference between the functions:
 #              mutate_point
@@ -70,6 +79,15 @@ def example1():
 #
 #  Step b:  PREDICT what  example2  will print when it runs.
 #
+#       Demonstrating mutation vs re-assignment via function calls:
+#
+#       Mutation:
+#       Before: Point(100, 200)
+#       After:  Point(77, 200)
+#
+#       Re-assignment:
+#       Before: Point(100, 200)
+#       After:  Point(77, 200)
 #  Step c:  Un-comment the call in  main  to  example2.
 #           RUN this module.
 #
