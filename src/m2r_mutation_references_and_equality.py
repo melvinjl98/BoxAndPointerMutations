@@ -18,7 +18,7 @@ import rosegraphics as rg
 ########################################################################
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #  Step a:  READ the   mutate_point   function below.
 #
 #  Step b:  Note that the code in main has 5 parts numbered 1, 2, ... 5.
@@ -28,6 +28,16 @@ import rosegraphics as rg
 #
 #    Step b2:  PREDICT what  the code in that part will print
 #                when it runs.
+#         Showing mutation via assignment:
+#         Before:   Point(45, 100)
+#         After:    Point(45, 33)
+#
+#         Showing mutation via a function call
+#         (which does assignment):
+#         Before:   Point(45, 33)
+#         After:    Point(45, 77)
+#
+#
 #
 #    Step b3:  RUN this module and examine the output from that part.
 #
